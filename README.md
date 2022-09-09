@@ -1,5 +1,5 @@
 ### Portfolio
-Portfolio web - It all about (praveen mistry)[https://pmistry.netlify.app/].
+Portfolio web - It all about [praveen mistry](https://pmistry.netlify.app/)
 
 Tech Stack Used
 - React
