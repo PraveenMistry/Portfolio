@@ -41,6 +41,7 @@ import contactsPink from '../assets/svg/contacts/contactsPink.svg'
 import contactsPurple from '../assets/svg/contacts/contactsPurple.svg'
 import contactsRed from '../assets/svg/contacts/contactsRed.svg'
 import contactsYellow from '../assets/svg/contacts/contactsYellow.svg'
+import profile from '../assets/images/profile.jpeg'
 
 
 export { 
@@ -48,5 +49,5 @@ export {
     orangeThemegirl, pinkThemeboy, pinkThemegirl, purpleThemeboy, purpleThemegirl, redThemeboy, redThemegirl,
     yellowThemeboy,yellowThemegirl,eduBlue,eduBlack,eduGreen,eduOrange,eduPink,eduPurple,eduRed,eduYellow,
     expBlue,expBlack,expGreen,expOrange,expPink,expPurple,expRed,expYellow,contactsBlue,contactsBlack,
-    contactsGreen,contactsOrange,contactsPink,contactsPurple,contactsRed,contactsYellow
+    contactsGreen,contactsOrange,contactsPink,contactsPurple,contactsRed,contactsYellow, profile
 }
