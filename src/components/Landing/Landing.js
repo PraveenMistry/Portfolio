@@ -143,7 +143,7 @@ function Landing() {
                     </div>
                 </div>
                 <img
-                    src={headerData.image}
+                    src={theme.profile}
                     alt=''
                     className='landing--img'
                     style={{
