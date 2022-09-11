@@ -4,7 +4,7 @@ import {
     orangeThemegirl, pinkThemeboy, pinkThemegirl, purpleThemeboy, purpleThemegirl, redThemeboy, redThemegirl, yellowThemeboy,
     yellowThemegirl,eduBlack,eduBlue,eduGreen,eduOrange,eduPink,eduPurple,eduRed,eduYellow,expBlack,expBlue,expGreen,expOrange,
     expPink,expPurple,expRed,expYellow,contactsBlack,contactsBlue,contactsGreen,contactsOrange,contactsPink,contactsPurple,
-    contactsRed,contactsYellow
+    contactsRed,contactsYellow, profile
 } from './images'
 
 
@@ -111,6 +111,7 @@ export const blueThemeLight = {
     tertiary50: '#21212180',
     aboutimg1: blueThemeboy,
     aboutimg2: blueThemegirl,
+    profile: profile,
     eduimg: eduBlue,
     expimg: expBlue,
     contactsimg: contactsBlue
