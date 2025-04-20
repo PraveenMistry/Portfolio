@@ -5,7 +5,7 @@ export const socialsData = {
     // codepen: 'https://codepen.io/',
     // twitter: 'https://twitter.com/',
     // reddit: 'https://www.reddit.com/user/',
-    blogger: 'https://sudomistry.blogspot.com',
+    blogger: 'https://leet-codes.blogspot.com',
     medium: 'https://medium.com/@praveenmistry/',
     // stackOverflow: 'https://stackoverflow.com/users/',
     // gitlab: 'https://gitlab.com/',

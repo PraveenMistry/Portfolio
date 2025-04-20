@@ -2,7 +2,7 @@ import resume from '../assets/pdf/resume.pdf'
 
 export const headerData = {
     name: 'Praveen Kumar Suthar',
-    title: "Full Stack Developer",
-    desciption:"Apart from being a software developer, I enjoy most of my time being outdoors and love photography. When forced indoors, I follow a number of movies and television shows, I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.",
+    title: "E-COMMERCE | OMNI-CHANNEL | LEADERSHIP | INTEGRATION | TEAM DEVELOPMENT",
+    desciption:"Websites, mobile apps, games, and you name it. The world is developing with Javascript, what do you want to develop? Explore and Master Js development with me. I`m Praveen Kumar Suthar, a Fullstack js developer, photographer, blogger by profession, and tech enthusiast at heart.",
     resumePdf: resume
 }

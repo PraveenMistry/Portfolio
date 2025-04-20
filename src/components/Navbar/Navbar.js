@@ -88,7 +88,7 @@ function Navbar() {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'space-evenly',
-            padding: '0 30px',
+            padding: '0 15px',
             boxSizing: 'border-box',
             border: '2px solid',
             borderColor: theme.primary,
@@ -99,7 +99,7 @@ function Navbar() {
             },
             [t.breakpoints.down('sm')]: {
                 width: '100%',
-                padding: '0 25px',
+                padding: '0 20px',
                 height: '55px',
             },
         },
@@ -213,7 +213,7 @@ function Navbar() {
 
                         <Fade left>
                             <NavLink
-                                to='/#resume'
+                                to='/#skills'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
@@ -223,7 +223,26 @@ function Navbar() {
                                         className={classes.drawerIcon}
                                     />
                                     <span className={classes.drawerLinks}>
-                                        Resume
+                                        Skills / Experience
+                                    </span>
+                                </div>
+                            </NavLink>
+                        </Fade>
+
+
+                        <Fade left>
+                            <NavLink
+                                to='/#projects'
+                                smooth={true}
+                                spy='true'
+                                duration={2000}
+                            >
+                                <div className={classes.drawerItem}>
+                                    <HiDocumentText
+                                        className={classes.drawerIcon}
+                                    />
+                                    <span className={classes.drawerLinks}>
+                                        Projects
                                     </span>
                                 </div>
                             </NavLink>

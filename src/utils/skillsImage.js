@@ -7,6 +7,14 @@ import adobeXd from '../assets/svg/skills/adobe-xd.svg'
 import afterEffects from '../assets/svg/skills/after-effects.svg'
 import css from '../assets/svg/skills/css.svg'
 import angular from '../assets/svg/skills/angular.svg'
+import redis from '../assets/svg/skills/redis.svg'
+import rabbitmq from '../assets/svg/skills/rabbitmq.svg'
+import grafana from '../assets/svg/skills/grafana.svg'
+import newrelic from '../assets/svg/skills/newrelic.svg'
+import bash from '../assets/svg/skills/bash.svg'
+import cicd from '../assets/svg/skills/cicd.svg'
+import kubernetes from '../assets/svg/skills/kubernetes.svg'
+import clinicjs from '../assets/svg/skills/clinicjs.svg'
 import javascript from '../assets/svg/skills/javascript.svg'
 import nextJS from '../assets/svg/skills/nextJS.svg'
 import nodeJS from '../assets/svg/skills/nodeJS.svg'
@@ -164,7 +172,7 @@ export const skillsImage = (skill) => {
             return swift;
         case 'adobe audition':
             return adobeaudition;
-        case 'aws':
+        case 'aws services':
             return aws;
         case 'deno':
             return deno;
@@ -230,6 +238,22 @@ export const skillsImage = (skill) => {
             return wolframalpha;
         case 'canva':
             return canva;
+        case 'grafana':
+            return grafana;
+        case 'bash script':
+            return bash;
+        case 'cicd':
+            return cicd;
+        case 'new relic':
+            return newrelic;
+        case 'rabbitmq':
+            return rabbitmq;
+        case 'clinicjs':
+            return clinicjs;
+        case 'redis':
+            return redis;
+        case 'kubernetes':
+            return kubernetes;
         default:
             break;
     }

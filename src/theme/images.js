@@ -49,5 +49,5 @@ export {
     orangeThemegirl, pinkThemeboy, pinkThemegirl, purpleThemeboy, purpleThemegirl, redThemeboy, redThemegirl,
     yellowThemeboy,yellowThemegirl,eduBlue,eduBlack,eduGreen,eduOrange,eduPink,eduPurple,eduRed,eduYellow,
     expBlue,expBlack,expGreen,expOrange,expPink,expPurple,expRed,expYellow,contactsBlue,contactsBlack,
-    contactsGreen,contactsOrange,contactsPink,contactsPurple,contactsRed,contactsYellow, profile
+    contactsGreen,contactsOrange,contactsPink,contactsPurple,contactsRed,contactsYellow,profile
 }

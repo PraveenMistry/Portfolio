@@ -2,8 +2,8 @@ import one from '../assets/svg/projects/one.svg'
 import two from '../assets/svg/projects/two.svg'
 import three from '../assets/svg/projects/three.svg'
 import four from '../assets/svg/projects/four.svg'
-// import five from '../assets/svg/projects/five.svg'
-// import six from '../assets/svg/projects/six.svg'
+import five from '../assets/svg/projects/five.svg'
+import six from '../assets/svg/projects/six.svg'
 // import seven from '../assets/svg/projects/seven.svg'
 // import eight from '../assets/svg/projects/eight.svg'
 
@@ -12,8 +12,8 @@ export const projectsData = [
     {
         id: 1,
         projectName: 'Sociolla',
-        projectDesc: 'Ecommerce platform - Top indonesian marketplace for beauty products. (MicroServices Architecture)',
-        tags: ['Node, Vue', 'Mongo, Elastic', 'Docker, Kubernetes'],
+        projectDesc: 'Ecommerce platform - Top Indonesian marketplace for beauty products. (MicroServices Architecture)',
+        tags: ['Node, Vue', 'Mongo, Elastic', 'Redis', 'RabbitMQ', 'Docker, Kubernetes', 'AWS Services'],
         code: 'https://github.com/praveenmistry/portfolio',
         demo: 'https://www.sociolla.com/',
         image: one
@@ -21,80 +21,50 @@ export const projectsData = [
     {
         id: 2,
         projectName: 'Uniware',
-        projectDesc: 'Ecommerce platform - Sallers can manage his / her all marketplace accounts from a single platform',
-        tags: ['Node', 'Mysql', 'AWS', 'JS'],
+        projectDesc: 'Integrated 30+ external platforms (marketplaces, carts, logistics, ERP systems) using API-driven microservices to streamline e-commerce operations for thousands of businesses.',
+        tags: ['Java', 'Node', 'Mysql', 'Mongo', 'AWS', 'JS'],
         code: 'https://github.com/praveenmistry/portfolio',
         demo: 'https://unicommerce.com/',
         image: two
     },
     {
         id: 3,
-        projectName: 'Foundry',
-        projectDesc: 'Foundry - Take full advantage of cloud-native thinking to design and architect auto-scaling, event driven applications to power the future of your business without the headaches of servers.',
-        tags: ['Angular', 'AWS', 'Scala'],
+        projectName: 'UniWeb',
+        projectDesc: 'Served as a UI Developer for an internal application, utilizing JavaScript and Angular for processing JSON and XML data.',
+        tags: ['AngularJS', 'AWS', 'ChoonaJs', 'Java'],
         code: 'https://github.com/praveenmistry/portfolio',
-        demo: 'https://www.thinglogix.com/',
+        demo: 'https://unicommerce.com/',
         image: three
     },
     {
         id: 4,
+        projectName: 'Foundry',
+        projectDesc: 'Built interactive features and dashboard UIs using AngularJS, CSS, and jQuery for the Thinglogix platform. Focused on improving UX through animation and validation layers.',
+        tags: ['Angular', 'AWS', 'Scala'],
+        code: 'https://github.com/praveenmistry/portfolio',
+        demo: 'https://www.thinglogix.com/',
+        image: four
+    },
+    {
+        id: 5,
+        projectName: 'Docto',
+        projectDesc: 'Collaborated with cross-functional teams to design and implement a healthcare platform. Delivered key business features with a focus on performance and maintainability.',
+        tags: ['Javascript', 'Laravel 5', 'HTML', 'CSS', 'PHP', 'CPanel'],
+        code: 'https://github.com/praveenmistry/portfolio',
+        demo: 'https://www.docto.in/',
+        image: five
+    },
+    {
+        id: 6,
         projectName: 'Real Estate Web- Dhanuka Jaipur',
-        projectDesc: 'This project is provide a CMS to the Dhanuka group jaipur so they can add / update thire websites',
+        projectDesc: 'This project is to provide a CMS to the Dhanuka group Jaipur so they can add/update their websites',
         tags: ['Javascript', 'Laravel', 'HTML', 'CSS'],
         code: 'https://github.com/praveenmistry/portfolio',
         demo: 'https://www.dhanukarealty.in/',
-        image: four
+        image: six
     },
-    // {
-    //     id: 5,
-    //     projectName: 'E-Commerce App',
-    //     projectDesc: 'A Simple E-commerce application',
-    //     tags: ['React Native', 'Firebase'],
-    //     code: 'https://github.com/praveenmistry/portfolio',
-    //     demo: 'https://github.com/praveenmistry/portfolio',
-    //     image: five
-    // },
-    // {
-    //     id: 6,
-    //     projectName: 'Uber Lite',
-    //     projectDesc: 'Uber clone',
-    //     tags: ['Flutter'],
-    //     code: 'https://github.com/praveenmistry/portfolio',
-    //     demo: 'https://github.com/praveenmistry/portfolio',
-    //     image: six
-    // },
-    // {
-    //     id: 7,
-    //     projectName: 'Stock Market App',
-    //     projectDesc: 'A simple stock market API app',
-    //     tags: ['React', 'Redux', 'Bootstrap'],
-    //     code: 'https://github.com/praveenmistry/portfolio',
-    //     demo: 'https://github.com/praveenmistry/portfolio',
-    //     image: seven
-    // },
-    // {
-    //     id: 8,
-    //     projectName: 'Car Pooling System',
-    //     projectDesc: 'The carpooling system merges multiple people in a car which leads to meet new people, reduces pollution',
-    //     tags: ['Flutter', 'React'],
-    //     code: 'https://github.com/praveenmistry/portfolio',
-    //     demo: 'https://github.com/praveenmistry/portfolio',
-    //     image: eight
-    // },
 ]
 
 
 // Do not remove any fields.
 // Leave it blank instead as shown below
-
-/* 
-{
-    id: 1,
-    projectName: 'Car Pooling System',
-    projectDesc: '',
-    tags: ['Flutter', 'React'],
-    code: '',
-    demo: '',
-    image: ''
-}, 
-*/

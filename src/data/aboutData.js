@@ -1,6 +1,7 @@
 export const aboutData = {
     title: "Who I am",
-    description1: "I'm a Full Stack Developer (SDE3) based in Gurgaon India",
-    description2: "During the day I work as a lead developer at a local agency and in the evening I work on freelance projects and utilize the time to built my own products. I spent my leisure hours reading articles and poetry. Right now I'm also trying a hand at machine learning and AI. I love to learn and explore new arenas.",
+    description1: "Team Lead | E-Commerce & Omni-Channel Systems | Full Stack Development | 9+ Years",
+    description2: "Experienced and growth-driven Software Engineer with 9+ years of success in designing and leading scalable solutions across e-commerce, marketplace integration, and omni-channel systems. For the past 2.5 years, I’ve led a cross-functional engineering team at Sociolla, overseeing mission-critical flows including commerce engines, internal trackers, POS integration, and mobile APIs.",
+    description3: "I’m passionate about fostering high-performing teams and aligning engineering excellence with business needs. Adept at microservice design, cloud architecture (AWS), CI/CD practices, and real-time monitoring, I thrive in environments where innovation, ownership, and collaboration are key.",
     image: 1
 }
