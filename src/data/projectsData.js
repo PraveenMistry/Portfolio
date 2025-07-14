@@ -2,8 +2,8 @@ import one from '../assets/svg/projects/one.svg'
 import two from '../assets/svg/projects/two.svg'
 import three from '../assets/svg/projects/three.svg'
 import four from '../assets/svg/projects/four.svg'
-import five from '../assets/svg/projects/five.svg'
-import six from '../assets/svg/projects/six.svg'
+// import five from '../assets/svg/projects/five.svg'
+// import six from '../assets/svg/projects/six.sv/g'
 // import seven from '../assets/svg/projects/seven.svg'
 // import eight from '../assets/svg/projects/eight.svg'
 
@@ -11,57 +11,39 @@ import six from '../assets/svg/projects/six.svg'
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Sociolla',
-        projectDesc: 'Ecommerce platform - Top Indonesian marketplace for beauty products. (MicroServices Architecture)',
-        tags: ['Node, Vue', 'Mongo, Elastic', 'Redis', 'RabbitMQ', 'Docker, Kubernetes', 'AWS Services'],
-        code: 'https://github.com/praveenmistry/portfolio',
-        demo: 'https://www.sociolla.com/',
+        projectName: 'Smart Price Comparison Tool',
+        projectDesc: 'Engineered a web application to scrape and compare product prices from major e-commerce platforms like Flipkart, demonstrating expertise in web scraping, data processing, and front-end development.',
+        tags: ['Node, JavaScript', 'AWS Services', 'HTML', 'CSS'],
+        code: 'https://github.com/PraveenMistry/Smart-Price-Comparison',
+        demo: 'https://github.com/PraveenMistry/Smart-Price-Comparison',
         image: one
     },
     {
         id: 2,
-        projectName: 'Uniware',
-        projectDesc: 'Integrated 30+ external platforms (marketplaces, carts, logistics, ERP systems) using API-driven microservices to streamline e-commerce operations for thousands of businesses.',
-        tags: ['Java', 'Node', 'Mysql', 'Mongo', 'AWS', 'JS'],
-        code: 'https://github.com/praveenmistry/portfolio',
-        demo: 'https://unicommerce.com/',
+        projectName: 'Rebootify',
+        projectDesc: 'Developed Rebootify, a lightweight (30x smaller than Nodemon) CLI tool for automatically restarting Node.js applications on file changes, enhancing developer e"iciency.',
+        tags: ['NodeJs'],
+        code: 'https://github.com/PraveenMistry/Rebootify',
+        demo: 'https://github.com/PraveenMistry/Rebootify',
         image: two
     },
     {
         id: 3,
-        projectName: 'UniWeb',
-        projectDesc: 'Served as a UI Developer for an internal application, utilizing JavaScript and Angular for processing JSON and XML data.',
-        tags: ['AngularJS', 'AWS', 'ChoonaJs', 'Java'],
-        code: 'https://github.com/praveenmistry/portfolio',
-        demo: 'https://unicommerce.com/',
+        projectName: 'Real-time Chat Application',
+        projectDesc: 'Engineered a real-time chat application demonstrating expertise in WebSocket communication (Socket.io), event handling, and concurrent user management for interactive web experiences.',
+        tags: ['NodeJs', 'SocketIO'],
+        code: 'https://github.com/PraveenMistry/Socket-NodeJS',
+        demo: 'https://github.com/PraveenMistry/Socket-NodeJS',
         image: three
     },
     {
         id: 4,
-        projectName: 'Foundry',
-        projectDesc: 'Built interactive features and dashboard UIs using AngularJS, CSS, and jQuery for the Thinglogix platform. Focused on improving UX through animation and validation layers.',
-        tags: ['Angular', 'AWS', 'Scala'],
-        code: 'https://github.com/praveenmistry/portfolio',
-        demo: 'https://www.thinglogix.com/',
+        projectName: 'Technical Blog & Knowledge Sharing',
+        projectDesc: 'Consistently publish articles on advanced software engineering topics, including System Design, Performance Optimization, Data Structures & Algorithms, and Software Security.',
+        tags: ['NodeJs', 'JavaScript', 'HTML / CSS', 'Redis', 'MongoDB', 'PostgreSQL', 'RabbitMQ', 'ElasticSearch', 'BashScript'],
+        code: 'https://medium.com/@praveenmistry',
+        demo: 'https://medium.com/@praveenmistry',
         image: four
-    },
-    {
-        id: 5,
-        projectName: 'Docto',
-        projectDesc: 'Collaborated with cross-functional teams to design and implement a healthcare platform. Delivered key business features with a focus on performance and maintainability.',
-        tags: ['Javascript', 'Laravel 5', 'HTML', 'CSS', 'PHP', 'CPanel'],
-        code: 'https://github.com/praveenmistry/portfolio',
-        demo: 'https://www.docto.in/',
-        image: five
-    },
-    {
-        id: 6,
-        projectName: 'Real Estate Web- Dhanuka Jaipur',
-        projectDesc: 'This project is to provide a CMS to the Dhanuka group Jaipur so they can add/update their websites',
-        tags: ['Javascript', 'Laravel', 'HTML', 'CSS'],
-        code: 'https://github.com/praveenmistry/portfolio',
-        demo: 'https://www.dhanukarealty.in/',
-        image: six
     },
 ]
 

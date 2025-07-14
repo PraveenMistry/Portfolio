@@ -1,5 +1,54 @@
 export const blogData = [  
     {
+        id: 21,
+        "title": "Kubernetes Pod YAML Explained: A Practical Guide Using Node.js & AWS EKS",
+        "description": "A practical guide to crafting Kubernetes Pod YAML for Node.js apps on AWS EKS, breaking down essential configurations.",
+        "date": "May 23, 2025",
+        "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/0*qhMJ4TjRKMl2Be9R",
+        "url": "https://medium.com/@praveenmistry/kubernetes-pod-yaml-explained-a-practical-guide-using-node-js-aws-eks-89ee9bfe1cfa"
+    },
+    {
+        id: 20,
+        "title": "The Silent Threat in Your npm install: A Wake-Up Call for Node.js Developers",
+        "description": "Exposes hidden security risks in npm install and offers crucial practices to secure Node.js projects from malicious dependencies.",
+        "date": "May 16, 2025",
+        "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/0*J7x4fKpO13EbrMzt",
+        "url": "https://medium.com/@praveenmistry/the-silent-threat-in-your-npm-install-a-wake-up-call-for-node-js-developers-64c94bdc0302"
+    },
+    {
+        id: 19,
+        "title": "Mastering MongoDB Indexing: Build the Perfect Index with the ESR Rule",
+        "description": "Optimizing MongoDB queries by mastering the ESR (Equality, Sort, Range) rule for efficient index creation and improved performance.",
+        "date": "May 12, 2025",
+        "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/0*u5CmMxBY1nkxQYux",
+        "url": "https://medium.com/@praveenmistry/mastering-mongodb-indexing-build-the-perfect-index-with-the-esr-rule-88419d3fa992"
+    },
+    {
+        id: 18,
+        "title": "Hidden Performance Pitfall in Node.js: Reading from process.env Inside Loops",
+        "description": "Uncovers a performance bottleneck in Node.js related to process.env access within loops, providing solutions for faster applications.",
+        "date": "May 10, 2025",
+        "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/0*7tQ9V3SkpUTDp7KK",
+        "url": "https://medium.com/@praveenmistry/hidden-performance-pitfall-in-node-js-reading-from-process-env-inside-loops-e57ea355c663"
+
+    },
+    {
+        "id": 17,
+        "title": "Different Ways to Clean Up: Garbage Collection Algorithms",
+        "description": "Explores diverse garbage collection algorithms, detailing how they manage memory in programming languages and their performance implications.",
+        "date": "May 4, 2025",
+        "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/0*EUX7d-8qn4UY_LnE",
+        "url": "https://medium.com/@praveenmistry/different-ways-to-clean-up-garbage-collection-algorithms-acf825285f59"
+    },
+    {
+        id: 16,
+        title: 'Understanding Rate Limiting: Concepts and Algorithms',
+        description: 'Delves into rate limiting for web applications and APIs, explaining key concepts and various algorithms for effective traffic management.',
+        date: 'April 26, 2025',
+        image: 'https://miro.medium.com/v2/resize:fit:1400/format:webp/0*F35NLpFiCp41o2Bd',
+        url: 'https://medium.com/@praveenmistry/understanding-rate-limiting-concepts-and-algorithms-fce4b7c2d7eb'
+    },
+    {
         id: 15,
         title: 'Rebootify — A 30x Lightweight Alternative to Nodemon!',
         description: 'Rebootify is a CLI tool designed to automatically restart Node.js applications when file changes are detected.',
