@@ -139,3 +139,4 @@ dist
 
 # typescript-tools.nvim
 /tsconfig.json.tmp
+node_modules/

@@ -1,31 +1,34 @@
  export const skillsData = [
+    'OpenAI',
+    'Claude',
+    'Anthropic',
+    'LLMs',
+    'MCP',
+    'Prompt Engineering',
     'Node JS',
-    'Vue',
-    'HTML',
-    'CSS',
     'Javascript',
-    'Redis',
-    'RabbitMQ',
-    'AWS Services',
+    'Typescript',
     'React',
+    'Python',
+    'AWS Services',
     'Docker',
     'Kubernetes',
-    'Typescript',
-    'Git',
-    'Bootstrap',
-    'MongoDB',
-    'MySQL',
-    'PostgreSQL',
-    'Firebase',
     'Nginx',
-    'Wordpress',
-    'Angular',
-    'Laravel 5',
-    'Grafana',
-    'Bash Script',
+    'Redis',
+    'RabbitMQ',
+    'Kafka',
+    'MongoDB',
+    'PostgreSQL',
+    'MySQL',
+    'GraphQL',
+    'Git',
     'CICD',
+    'Figma',
+    'Vue',
+    'Tailwind',
+    'Bash Script',
     'New Relic',
-    'Clinicjs',
+    'Grafana'
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
@@ -113,4 +116,7 @@
     Tensorflow
     Webex
     Wordpress
+    Redis
+    Kafka
+    Kubernetes
 */

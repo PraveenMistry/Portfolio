@@ -83,6 +83,13 @@ import unity from '../assets/svg/skills/unity.svg'
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
 
 import canva from '../assets/svg/skills/canva.svg'
+import kafka from '../assets/svg/skills/kafka.svg'
+import openai from '../assets/svg/skills/openai.svg'
+import claude from '../assets/svg/skills/claude.svg'
+import anthropic from '../assets/svg/skills/anthropic.svg'
+import llms from '../assets/svg/skills/llms.svg'
+import mcp from '../assets/svg/skills/mcp.svg'
+import promptEngineering from '../assets/svg/skills/prompt-engineering.svg'
 
 
 export const skillsImage = (skill) => {
@@ -254,6 +261,20 @@ export const skillsImage = (skill) => {
             return redis;
         case 'kubernetes':
             return kubernetes;
+        case 'kafka':
+            return kafka;
+        case 'openai':
+            return openai;
+        case 'claude':
+            return claude;
+        case 'anthropic':
+            return anthropic;
+        case 'llms':
+            return llms;
+        case 'mcp':
+            return mcp;
+        case 'prompt engineering':
+            return promptEngineering;
         default:
             break;
     }

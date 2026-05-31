@@ -2,8 +2,8 @@ import one from '../assets/svg/projects/one.svg'
 import two from '../assets/svg/projects/two.svg'
 import three from '../assets/svg/projects/three.svg'
 import four from '../assets/svg/projects/four.svg'
-// import five from '../assets/svg/projects/five.svg'
-// import six from '../assets/svg/projects/six.sv/g'
+import five from '../assets/svg/projects/five.svg'
+import six from '../assets/svg/projects/six.svg'
 // import seven from '../assets/svg/projects/seven.svg'
 // import eight from '../assets/svg/projects/eight.svg'
 
@@ -11,40 +11,58 @@ import four from '../assets/svg/projects/four.svg'
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Smart Price Comparison Tool',
-        projectDesc: 'Engineered a web application to scrape and compare product prices from major e-commerce platforms like Flipkart, demonstrating expertise in web scraping, data processing, and front-end development.',
-        tags: ['Node, JavaScript', 'AWS Services', 'HTML', 'CSS'],
-        code: 'https://github.com/PraveenMistry/Smart-Price-Comparison',
-        demo: 'https://github.com/PraveenMistry/Smart-Price-Comparison',
+        projectName: 'PR Review AI Agent',
+        projectDesc: 'Developed an automated AI-powered agent to streamline daily engineering workflows by conducting highly contextual pull request reviews, reducing manual review time.',
+        tags: ['AI Engineering', 'NodeJs', 'LLMs'],
+        code: 'https://github.com/PraveenMistry',
+        demo: 'https://medium.com/@praveenmistry',
         image: one
     },
     {
         id: 2,
-        projectName: 'Rebootify',
-        projectDesc: 'Developed Rebootify, a lightweight (30x smaller than Nodemon) CLI tool for automatically restarting Node.js applications on file changes, enhancing developer e"iciency.',
-        tags: ['NodeJs'],
-        code: 'https://github.com/PraveenMistry/Rebootify',
-        demo: 'https://github.com/PraveenMistry/Rebootify',
+        projectName: 'promise-cap',
+        projectDesc: 'Built a zero-dependency async concurrency library from scratch featuring priority queues, AbortSignal support, and deadlock detection.',
+        tags: ['NodeJs', 'JavaScript', 'NPM Package'],
+        code: 'https://github.com/PraveenMistry/promise-cap',
+        demo: 'https://www.npmjs.com/package/promise-cap',
         image: two
     },
     {
         id: 3,
-        projectName: 'Real-time Chat Application',
-        projectDesc: 'Engineered a real-time chat application demonstrating expertise in WebSocket communication (Socket.io), event handling, and concurrent user management for interactive web experiences.',
-        tags: ['NodeJs', 'SocketIO'],
-        code: 'https://github.com/PraveenMistry/Socket-NodeJS',
-        demo: 'https://github.com/PraveenMistry/Socket-NodeJS',
+        projectName: 'ai-coding-assistant',
+        projectDesc: 'Created an AI-powered coding helper CLI tool published on NPM, designed to enhance developer productivity directly from the terminal.',
+        tags: ['AI', 'CLI', 'NodeJs'],
+        code: 'https://github.com/PraveenMistry/ai-coding-assistant',
+        demo: 'https://www.npmjs.com/package/ai-code-assistant',
         image: three
     },
     {
         id: 4,
-        projectName: 'Technical Blog & Knowledge Sharing',
-        projectDesc: 'Consistently publish articles on advanced software engineering topics, including System Design, Performance Optimization, Data Structures & Algorithms, and Software Security.',
-        tags: ['NodeJs', 'JavaScript', 'HTML / CSS', 'Redis', 'MongoDB', 'PostgreSQL', 'RabbitMQ', 'ElasticSearch', 'BashScript'],
-        code: 'https://medium.com/@praveenmistry',
-        demo: 'https://medium.com/@praveenmistry',
+        projectName: 'Smart Price Comparison',
+        projectDesc: 'Engineered a web application to scrape and compare product prices from major e-commerce platforms like Flipkart, demonstrating data processing skills.',
+        tags: ['NodeJs', 'AWS Services', 'Web Scraping'],
+        code: 'https://github.com/PraveenMistry/Smart-Price-Comparison',
+        demo: 'https://github.com/PraveenMistry/Smart-Price-Comparison',
         image: four
     },
+    {
+        id: 5,
+        projectName: 'Rebootify',
+        projectDesc: 'Developed Rebootify, a lightweight (30x smaller than Nodemon) CLI tool for automatically restarting Node.js applications on file changes.',
+        tags: ['NodeJs', 'CLI Tool'],
+        code: 'https://github.com/PraveenMistry/Rebootify',
+        demo: 'https://github.com/PraveenMistry/Rebootify',
+        image: five
+    },
+    {
+        id: 6,
+        projectName: 'Technical Knowledge Sharing',
+        projectDesc: 'Publish articles on AI integrations (Claude Code, MCP), System Design, Performance Optimization, and advanced Node.js architecture.',
+        tags: ['Technical Writing', 'Architecture', 'AI'],
+        code: 'https://medium.com/@praveenmistry',
+        demo: 'https://medium.com/@praveenmistry',
+        image: six
+    }
 ]
 
 

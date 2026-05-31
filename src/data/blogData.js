@@ -1,4 +1,45 @@
-export const blogData = [  
+export const blogData = [ 
+    
+    {
+        id: 24,
+        "title": "Connect Atlassian MCP to Claude Code in 5 Steps",
+        "description": "A practical guide on registering and connecting the Atlassian Model Context Protocol (MCP) server to Claude Code.",
+        "date": "Mar 31, 2026",
+        "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*m4XJR0g0cKSmAwPQ-qmGHQ.png",
+        "url": "https://medium.com/@praveenmistry/connect-atlassian-mcp-to-claude-code-in-5-steps-9cad37da9ad5"
+    }, 
+    {
+        id: 25,
+        "title": "🤖 I Built an AI PR Review Agent for My Daily Engineering Work",
+        "description": "An exploration of how I automated parts of my daily workflow by building an AI-powered agent for pull request reviews.",
+        "date": "May 2, 2026",
+        "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*GRQ8Oui1_CP49n7cDL9Ipg.png",
+        "url": "https://medium.com/@praveenmistry/i-built-an-ai-pr-review-agent-for-my-daily-engineering-work-bb5cb54b1f8e"
+    },
+    {
+        id: 26,
+        "title": "I Got Tired of p-limit's Limitations, So I Built My Own — promise-cap",
+        "description": "A deep dive into building a zero-dependency async concurrency library from scratch, featuring priority queues, AbortSignal, and deadlock detection.",
+        "date": "May 3, 2026",
+        "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*H6BwpHxhO2C_b6pxjBz9Bg.png",
+        "url": "https://medium.com/@praveenmistry/i-got-tired-of-p-limits-limitations-so-i-built-my-own-promise-cap-bcca7f987395"
+    },
+    {
+        id: 23,
+        "title": "Connecting Figma to Claude Code: From Design to Development in One Terminal",
+        "description": "Instructions on bridging the gap between design and development by integrating Figma with Claude Code via MCP.",
+        "date": "Mar 31, 2026",
+        "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*QixJNTUVYbIys4FdxCuYeA.png",
+        "url": "https://medium.com/@praveenmistry/connecting-figma-to-claude-code-from-design-to-development-in-one-terminal-bfd94f07d82e"
+    },
+    {
+        id: 22,
+        "title": "Tree BFS | Javascript | Patterns to ACE any code | Part-7",
+        "description": "Part of a series on coding interview patterns, focusing on identifying and implementing Breadth-First Search for trees in JavaScript.",
+        "date": "Sep 22, 2025",
+        "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/0*EUX7d-8qn4UY_LnE",
+        "url": "https://medium.com/@praveenmistry/tree-bfs-javascript-patterns-to-ace-any-code-part-7-3532f2670923"
+    },
     {
         id: 21,
         "title": "Kubernetes Pod YAML Explained: A Practical Guide Using Node.js & AWS EKS",

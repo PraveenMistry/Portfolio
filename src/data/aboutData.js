@@ -1,7 +1,7 @@
 export const aboutData = {
     title: "Who I am",
-    description1: "An experienced and growth-driven Software Engineer with 10+ years of success in designing and leading scalable solutions across e-commerce, marketplace integration, and omni-channel systems. For the past 3 years, I've led a cross-functional engineering team at Sociolla, overseeing mission-critical flows including commerce engines, internal trackers, POS integration, and mobile APIs.",
-    description2: "I architected and spearheaded the development of a highly extensible marketplace integration solution, enabling seamless distribution of Sociolla products across major external platforms (e.g., Shopee, TikTok, Tokopedia, Lazada). This significantly minimized future development effort for onboarding new marketplaces.",
-    description3: "Adept at microservice design, cloud architecture (AWS), CI/CD practices, and real-time monitoring, I'm passionate about fostering high-performing teams, aligning engineering excellence with business needs, and thriving in environments that value innovation, ownership, and collaboration.",
+    description1: "With over a decade of experience architecting distributed systems, I am an Engineering Lead who thrives at the intersection of enterprise software and the modern AI ecosystem. In the AI era, engineering is no longer just about writing code—it's about building intelligent workflows that multiply human impact.",
+    description2: "At Sociolla, I spearheaded mission-critical commerce engines and scalable integrations that processed massive transactional volume across platforms like TikTok and Shopee. Today, I apply that same architectural rigor to AI—building autonomous PR Review Agents, AI-powered CLI tools, and open-source libraries that push the boundaries of developer productivity.",
+    description3: "Whether I'm designing AWS-backed microservices or integrating LLMs via the Model Context Protocol (MCP), my goal is to drive engineering excellence. I am passionate about mentoring teams, solving complex architectural puzzles, and leading organizations into the next paradigm of software development.",
     image: 1
 }
